@@ -1,0 +1,39 @@
+.Image{
+  margin-right:10%;
+  margin-left:10%;
+  max-width: 80%;
+  border-radius: 15px;
+}
+h2{
+  font-family: 'Caladea';
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.Hover1{
+  font-size: 30px;
+  text-align: center;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.Hover2{
+  font-size: 30px;
+  text-align: center;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.Hover3{
+  font-size: 30px;
+  text-align: center;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
