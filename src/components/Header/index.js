@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-const HeaderName = () => {
+const Header = () => {
 
   return (
     <>
@@ -11,4 +11,4 @@ const HeaderName = () => {
   )
 }
 
-export default HeaderName;
+export default Header;

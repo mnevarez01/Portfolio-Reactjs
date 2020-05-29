@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import Home from './component/Home'
-import Contact from './component/Contact'
-import Portfolio from './component/Portfolio'
-import Navbar from './component/Navbar'
-import HeaderName from "./component/Header"
-import BurgerContext from "./utils/BurgerContext"
-
+import Contact from './components/Contact'
+import Header from './components/Header'
+import Portfolio from './components/Portfolio'
+import HomePage from './components/Home'
 
 
 const App = () => {
@@ -24,17 +21,15 @@ const App = () => {
   return (
     <div>
       <Router>
-        <BurgerContext.Provider value={burger}>
-          <Navbar />
-        </BurgerContext.Provider>
+
         {/* <Background /> */}
         {/* <Wrapper>
           <Route exact path="/" />
           <Route exact path="/portfolio" />
           <Route exact path="/Contact" />
         </Wrapper> */}
-        <HeaderName />
-        <Home />
+        <Header />
+        <HomePage />
         <Portfolio />
         <Contact />
       </Router>
